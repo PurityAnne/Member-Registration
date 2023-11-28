@@ -27,31 +27,41 @@ The Member Registration Application is a Python GUI program built with tkinter a
    ```bash
    pip install openpyxl
 
-3. Run the member_registration.py script:
- ```bash
-   python member_registration.py
+```bash
+# Run the member_registration.py script:
 
-4. The main application window will open, featuring an "Add Member" button. Click this button to open the member registration form.
+python member_registration.py
+
+# The main application window will open, featuring an "Add Member" button. Click this button to open the member registration form.
+
+# Fill out the member registration form with the required information. The form is organized into sections for general, contact, residential, employment, and nominee information.
+
+# After filling out the form, click the "Add Member" button to add the member to the Excel spreadsheet. A confirmation message will be displayed.
+
+# You can close the program using the "Close" button.
+
+# Excel Spreadsheet
+
+The program uses an Excel spreadsheet named "Registration_Book.xlsx" to store member data.
+
+Each member's data is added to a separate sheet with a unique name (e.g., MG001, MG002, etc.).
+
+The "Member_List" sheet maintains a list of registered members, including their names, ID/passport numbers, and registration dates.
 
 
-5. Fill out the member registration form with the required information. The form is organized into sections for general, contact, residential, employment, and nominee information.
-
-6. After filling out the form, click the "Add Member" button to add the member to the Excel spreadsheet. A confirmation message will be displayed.
-
-7. You can close the program using the "Close" button.
-
-## Excel Spreadsheet
-
-1. The program uses an Excel spreadsheet named "Registration_Book.xlsx" to store member data.
-2. Each member's data is added to a separate sheet with a unique name (e.g., MG001, MG002, etc.).
-3. The "Member_List" sheet maintains a list of registered members, including their names, ID/passport numbers, and registration dates.
-
-## Customization
+# Customization
 
 You can customize the structure of the member registration form by modifying the fields list in the AddMemberForm class.
+
 Additional fields or sections can be added as needed.
+
 You can also customize the appearance of the GUI, such as window size and button text.
 
-## Acknowledgments
+
+# Author
+
+- Purity Anne
+
+# Acknowledgments
 
 Special thanks to the open-source community for the tkinter and openpyxl libraries.
